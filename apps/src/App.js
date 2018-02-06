@@ -1,21 +1,40 @@
 import React, { Component } from 'react'
+
 import './App.css'
 
 import mainLogo from './NBA_AllStar_LA.png'
+import Profile from "./components/Profile"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <div className="App-header">
+          <div>
           <img  src={mainLogo} alt="nba-allstar"/>
-          <h1 className="App-title">All-Star Voting</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          </div>
+          <div>
+            <div class="ui huge yellow header">All-Star 2018 Voting</div>
+            <p>Los Angeles, February 18 2018</p>
+          </div>
+          <br/>
+        </div>
+
+        <br/>
+        <div>
+          <div class="ui large center aligned header">Backcourt</div><br/>
+        </div>
+
+        <div class = "container">
+          <br/>
+          <Profile image="/images/kyrieirving.png" name="Kyrie Irving"/>
+          <Profile image="/images/stephencurry.png" name="Stephen Curry"/>
+          <Profile image="/images/rickyrubio.png" name="Kyrie Irving"/>
+        </div>
+          <hr/>
       </div>
-    );
+
+    )
   }
 }
 
