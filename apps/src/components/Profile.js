@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React, {Component} from "react"
 import './Profile.css'
 
 import Player from "./Player"
@@ -13,20 +13,38 @@ export default class Profile extends Component {
     this.increaseVote = this.increaseVote.bind(this)
   }
 
-  increaseVote(){
+  increaseVote() {
     this.setState((prevState) => ({
-      count:prevState.count + 1
+      count: prevState.count + 1
     }))
   }
 
   render() {
-    return (
-      <div className="card">
+    return (<div className="card">
+      <div className="image-player">
         <Player image={this.props.image} name={this.props.name}/>
-        <hr className="hr-profile"/>
+      </div>
+      <hr className="hr-profile"/>
+      <div className="player-data">
+        <i aria-hidden="true" class="user icon"></i>{this.props.name}
+      </div>
+      <div className="player-data">
+        <i aria-hidden="true" class="home icon"></i>{this.props.team}
+      </div>
+      <div className="player-data">
+        <i aria-hidden="true" class="hashtag icon"></i>{this.props.number}
+      </div>
+      <div className="player-data">
+        <i aria-hidden="true" class="star icon"></i>{this.props.star}
+      </div>
+      <div className="player-data">
+        <i aria-hidden="true" class="trophy icon"></i>{this.props.trophy}
+      </div>
+      <hr className="hr-profile"/>
+      <div className="vote">
         <button onClick={this.increaseVote}>VOTE</button>
         <VoteCount count={this.state.count}/>
       </div>
-    )
+    </div>)
   }
 }

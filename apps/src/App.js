@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <div>
-          <img  src={mainLogo} alt="nba-allstar"/>
+          <img src={mainLogo} alt="nba-allstar"/>
           </div>
           <div>
             <div class="ui huge yellow header">All-Star 2018 Voting</div>
@@ -27,11 +27,24 @@ class App extends Component {
 
         <div class = "container">
           <br/>
-          <Profile image="/images/kyrieirving.png" name="Kyrie Irving"/>
-          <Profile image="/images/stephencurry.png" name="Stephen Curry"/>
-          <Profile image="/images/rickyrubio.png" name="Kyrie Irving"/>
+          <Profile image="/images/kyrieirving.png" name="Kyrie Irving" team="Boston Celtics" number="11" trophy="1x NBA Champion" star="5x NBA All-Star"/>
+          <Profile image="/images/stephencurry.png" name="Stephen Curry" team="Golden State Warriors" number="30" trophy="2x NBA Champions" star="5x NBA All-Star"/>
+          <Profile image="/images/rickyrubio.png" name="Ricky Rubio" team="Utah Jazz" number="3" trophy="-" star="-"/>
         </div>
+        <br/>
           <hr/>
+
+        <br/>
+          <div>
+            <div class="ui large center aligned header">Frontcourt</div><br/>
+          </div>
+
+        <div class = "container">
+          <br/>
+          <Profile image="/images/kyrieirving.png" name="Kyrie Irving" team="Boston Celtics" number="11"/>
+          <Profile image="/images/stephencurry.png" name="Stephen Curry" team="Golden State Warriors" number="30"/>
+          <Profile image="/images/rickyrubio.png" name="Ricky Rubio" team="Utah Jazz" number="3"/>
+        </div>
       </div>
 
     )
