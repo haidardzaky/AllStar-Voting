@@ -4,6 +4,7 @@ import './Profile.css'
 import Player from "./Player"
 import VoteCount from "./VoteCount"
 
+
 export default class Profile extends Component {
   constructor(props) {
     super(props)

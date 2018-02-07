@@ -1,19 +1,32 @@
 .card{
-  margin: auto;
-  height: 350px;
-  width: 300px;
-  border-style:solid;
-  border-radius: 20px;
-  padding: auto;
+  background-color: lightgray;
+  color:black;
 }
-
 .image-player{
   text-align: center;
+  margin-top: 15px;
 }
 
-.hr-profile{
+
+
+hr{
   margin-right:30px;
   margin-left:30px;
+  border-color: black;
+}
+
+
+
+button{
+  background-color: transparent;
+  border-color:yellow;
+  border-radius: 10px;
+  cursor:pointer;
+  height: 30px;
+}
+
+button:hover{
+  background-color: yellow;
 }
 
 .img-player{
