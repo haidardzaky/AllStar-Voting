@@ -39,10 +39,10 @@ class App extends Component {
           <Profile image="/images/jamesharden.png" name="James Harden" team="Houston Rockets" number="13" trophy="-" star="6x NBA All-Star"/>
         </div>
         <div class="card">
-          <Profile image="/images/kyrieirving.png" name="Kyrie Irving" team="Boston Celtics" number="11" trophy="1x NBA Champion" star="5x NBA All-Star"/>
+          <Profile image="/images/isaiahthomas.png" name="Isaiah Thomas" team="Cleveland Cavaliers" number="3" trophy="-" star="2x NBA All-Star"/>
         </div>
         <div class="card">
-          <Profile image="/images/stephencurry.png" name="Stephen Curry" team="Golden State Warriors" number="30" trophy="2x NBA Champions" star="5x NBA All-Star"/>
+          <Profile image="/images/tonyparker.png" name="Tony Parker" team="San Antonio Spurs" number="9" trophy="4x NBA Champions" star="6x NBA All-Star"/>
         </div>
         <div class="card">
           <Profile image="/images/rickyrubio.png" name="Ricky Rubio" team="Utah Jazz" number="3" trophy="-" star="-"/>
