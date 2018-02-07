@@ -33,7 +33,7 @@ export default class Profile extends Component {
         <i aria-hidden="true" class="home icon"></i>{this.props.team}
       </div>
       <div className="player-data">
-        <i aria-hidden="true" class="hashtag icon"></i>{this.props.number}
+        <i aria-hidden="true" class="resize vertical icon"></i>{this.props.number}
       </div>
       <div className="player-data">
         <i aria-hidden="true" class="star icon"></i>{this.props.star}
