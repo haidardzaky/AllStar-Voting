@@ -45,7 +45,7 @@ class App extends Component {
           <Profile image="/images/tonyparker.png" name="Tony Parker" team="San Antonio Spurs" number="188 cm" trophy="4x NBA Champions" star="6x NBA All-Star"/>
         </div>
         <div class="card">
-          <Profile image="/images/rickyrubio.png" name="Ricky Rubio" team="Utah Jazz" number="3" trophy="-" star="-"/>
+          <Profile image="/images/dwyanewade.png" name="Dwyane Wade" team="Cleveland Cavaliers" number="194 cm" trophy="3x NBA Champions" star="12x NBA All-Star"/>
         </div>
         <div class="card">
           <Profile image="/images/rickyrubio.png" name="Ricky Rubio" team="Utah Jazz" number="3" trophy="-" star="-"/>
